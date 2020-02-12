@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameWithNature", "GameWithNature\GameWithNature.csproj", "{37FDE120-5915-429D-8CC6-0DBABF787ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameWithNatureTest", "GameWithNatureTest\GameWithNatureTest.csproj", "{BB70927B-0E4D-4ED1-93D0-67800A1D2886}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{37FDE120-5915-429D-8CC6-0DBABF787ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37FDE120-5915-429D-8CC6-0DBABF787ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37FDE120-5915-429D-8CC6-0DBABF787ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB70927B-0E4D-4ED1-93D0-67800A1D2886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB70927B-0E4D-4ED1-93D0-67800A1D2886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB70927B-0E4D-4ED1-93D0-67800A1D2886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB70927B-0E4D-4ED1-93D0-67800A1D2886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
