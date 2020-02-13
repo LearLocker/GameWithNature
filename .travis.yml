@@ -1,12 +1,13 @@
 language: csharp
+solution: GameWithNature.sln
 
+mono: none
 dotnet: 2.1.4
 sudo: false
 
-env:
-    global:
-        - DOTNET_CLI_TELEMETRY_OPTOUT: 1
-
+install:
+  - nuget restore GameWithNature.sln
+  - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
 script:
-    - dotnet build CIDem
-o.sln -c Release
+  - msbuild /p:Configuration=Debug GameWithNature.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./GameWithNatureTest/bin/Debug/netcoreapp3.1/GameWithNatureTest.dll
