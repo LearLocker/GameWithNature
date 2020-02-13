@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SolutionRoot CoveredStatements="205" TotalStatements="280" CoveragePercent="73" ReportType="Xml" DotCoverVersion="2019.3.2">
+  <Project Name="GameWithNature" CoveredStatements="183" TotalStatements="258" CoveragePercent="71">
+    <Namespace Name="GameWithNature" CoveredStatements="183" TotalStatements="258" CoveragePercent="71">
+      <Type Name="Game" CoveredStatements="183" TotalStatements="211" CoveragePercent="87">
+        <Constructor Name="Game()" CoveredStatements="18" TotalStatements="18" CoveragePercent="100" />
+        <Property Name="Columns:int" CoveredStatements="1" TotalStatements="2" CoveragePercent="50">
+          <PropertyGetter CoveredStatements="0" TotalStatements="1" CoveragePercent="0" />
+          <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+        </Property>
+        <Property Name="Rows:int" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+          <PropertyGetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+          <PropertySetter CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+        </Property>
+        <Method Name="GetMatrix():double[,]" CoveredStatements="4" TotalStatements="5" CoveragePercent="80" />
+        <Method Name="GetRiskMatrix():double[,]" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+        <Method Name="Hurwitz(double):int" CoveredStatements="48" TotalStatements="48" CoveragePercent="100" />
+        <Method Name="Max(double[]):int" CoveredStatements="15" TotalStatements="15" CoveragePercent="100" />
+        <Method Name="Min(double[]):int" CoveredStatements="15" TotalStatements="15" CoveragePercent="100" />
+        <Method Name="OutputGMatrix():void" CoveredStatements="0" TotalStatements="13" CoveragePercent="0" />
+        <Method Name="OutputRMatrix():void" CoveredStatements="0" TotalStatements="13" CoveragePercent="0" />
+        <Method Name="RiskMatrix():void" CoveredStatements="26" TotalStatements="26" CoveragePercent="100" />
+        <Method Name="Savage():int" CoveredStatements="19" TotalStatements="19" CoveragePercent="100" />
+        <Method Name="Ver(double[]):int" CoveredStatements="13" TotalStatements="13" CoveragePercent="100" />
+        <Method Name="Wald():int" CoveredStatements="19" TotalStatements="19" CoveragePercent="100" />
+      </Type>
+      <Type Name="Program" CoveredStatements="0" TotalStatements="47" CoveragePercent="0">
+        <Method Name="Main():void" CoveredStatements="0" TotalStatements="47" CoveragePercent="0" />
+      </Type>
+    </Namespace>
+  </Project>
+  <Project Name="GameWithNatureTest" CoveredStatements="22" TotalStatements="22" CoveragePercent="100">
+    <Namespace Name="GameWithNatureTest" CoveredStatements="22" TotalStatements="22" CoveragePercent="100">
+      <Type Name="Tests" CoveredStatements="22" TotalStatements="22" CoveragePercent="100">
+        <Constructor Name="Tests()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" />
+        <Method Name="GameMatrixTest():void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="HurwitzTest():void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+        <Method Name="RiskMatrixTest():void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="SavageTest():void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+        <Method Name="VerTest():void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" />
+        <Method Name="WaldTest():void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" />
+      </Type>
+    </Namespace>
+  </Project>
+</SolutionRoot>

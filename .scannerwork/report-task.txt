@@ -1,0 +1,7 @@
+organization=gamewithnatu
+projectKey=LearLocker_GameWithNature
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.4619
+dashboardUrl=https://sonarcloud.io/dashboard?id=LearLocker_GameWithNature
+ceTaskId=AXA9EYsgVmWGloMp6P_w
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXA9EYsgVmWGloMp6P_w
